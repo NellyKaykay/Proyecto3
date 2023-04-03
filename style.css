@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(127, 255, 249);
+
+    }
+
+    main-container {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .main-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1em;
+        padding: 1em 1em;
+        font-size: 400;
+    }  
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 2em;
+    }
+.btn-navbar {
+    background-color: rgb(169, 131, 205);
+    padding: 0.5em 2em;
+    border: none;
+    color: aliceblue;
+    font-size: 400;
+
+}
+
+.navbar-item {
+    color: white;
+    font-weight: 700;
+   
+}
+
+ 
+.cotainer {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 1em;
+    
+}
